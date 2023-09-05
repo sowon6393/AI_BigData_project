@@ -1,0 +1,181 @@
+team,TOTAL_MEAN,FW,MID,DF
+Manchester City,85,85,87,83
+FC Bayern München,85,86,85,83
+Real Madrid,85,85,86,84
+Liverpool,84,84,81,85
+Paris Saint Germain,84,86,79,82
+Atlético Madrid,83,84,83,81
+FC Barcelona,83,83,85,82
+Arsenal,82,82,84,81
+Chelsea,82,82,81,82
+Manchester United,82,81,84,81
+Inter,82,84,82,82
+Juventus,82,83,81,80
+Tottenham Hotspur,81,84,80,79
+Borussia Dortmund,81,82,81,82
+RB Leipzig,81,83,81,79
+Milan,81,80,80,81
+Newcastle United,80,79,80,80
+Napoli,80,82,81,80
+Roma,80,82,79,82
+Sevilla,80,80,79,79
+Villarreal,80,82,79,79
+Aston Villa,79,79,78,79
+Bayer 04 Leverkusen,79,81,78,80
+Lazio,79,81,81,78
+Athletic Club,79,77,79,80
+Real Betis,79,82,80,78
+Real Sociedad,79,78,80,78
+Benfica,79,81,78,79
+West Ham United,78,78,79,78
+Eintracht Frankfurt,78,79,77,76
+Fiorentina,78,78,78,77
+Atalanta,78,80,78,77
+Leicester City,78,77,80,76
+Wolverhampton Wanderers,78,77,78,76
+Olympique de Marseille,78,79,79,77
+Porto,78,78,79,77
+Sporting CP,78,79,79,77
+Nottingham Forest,77,75,76,77
+Brighton & Hove Albion,77,75,77,78
+Borussia Mönchengladbach,77,80,78,76
+Olympique Lyonnais,77,80,76,76
+Getafe,77,77,78,75
+Monaco,77,80,77,77
+Galatasaray,77,79,77,74
+Rennes,77,76,76,77
+Celta de Vigo,77,78,76,78
+Espanyol,77,81,77,76
+Ajax,77,78,78,73
+Everton,76,77,76,76
+Crystal Palace,76,76,76,76
+Flamengo,76,77,75,75
+SC Freiburg,76,76,76,77
+TSG Hoffenheim,76,76,78,76
+Lens,76,77,76,77
+Lille,76,78,76,76
+Nice,76,75,76,76
+River Plate,76,75,77,75
+Sporting Braga,76,78,77,75
+Palmeiras,76,78,77,74
+Fulham,76,79,76,75
+VfL Wolfsburg,76,76,77,76
+Valencia,76,78,75,76
+Osasuna,76,75,76,76
+Rayo Vallecano,76,76,76,76
+PSV,76,75,77,74
+Leeds United,75,75,76,74
+Atlético Mineiro,75,73,77,76
+Southampton,75,76,74,75
+FC Union Berlin,75,75,74,75
+Torino,75,77,75,74
+Udinese,75,75,75,75
+Fenerbahçe,75,76,75,74
+Beşiktaş,75,76,75,74
+Boca Juniors,75,74,75,75
+Sassuolo,75,77,75,71
+Brentford,75,74,75,76
+FSV Mainz 05,75,76,75,74
+Cádiz,75,74,75,75
+Trabzonspor,75,75,75,73
+Bologna,75,77,75,73
+Monza,75,76,75,74
+Mallorca,75,79,75,75
+Real Valladolid,75,74,74,73
+Club Brugge,75,74,76,72
+Girona,75,77,76,75
+Feyenoord,75,74,76,77
+Slavia Praha,74,72,73,74
+Athletico Paranaense,74,74,72,75
+AEK Athens,74,76,75,73
+Internacional,74,71,73,75
+FC Köln,74,71,75,73
+VfB Stuttgart,74,72,75,75
+Salernitana,74,76,73,71
+FC Augsburg,74,73,73,74
+Almería,74,75,74,72
+Montpellier,74,75,75,73
+Nantes,74,74,73,73
+Strasbourg,74,77,74,74
+Celtic,74,74,74,74
+Bragantino,74,74,74,75
+AZ Alkmaar,74,76,74,74
+AFC Bournemouth,74,75,73,73
+Hertha BSC,74,74,75,73
+Hellas Verona,74,72,74,74
+Empoli,74,73,74,74
+Elche,74,74,73,73
+Racing Club,74,73,73,74
+Burnley,73,72,73,74
+Sparta Praha,73,74,72,73
+Al Nassr,73,87,70,71
+Corinthians,73,74,73,74
+Toulouse,73,72,75,72
+Santos,73,74,72,73
+Werder Bremen,73,76,71,74
+Levante,73,72,75,71
+Rangers,73,73,73,74
+São Paulo,73,72,73,73
+Lecce,73,74,73,73
+Panathinaikos,73,72,73,72
+Al Hilal,73,74,75,71
+Brest,73,73,73,72
+Stade de Reims ,73,76,73,74
+Viktoria Plzeň,73,73,73,72
+PAOK,73,73,73,71
+Spezia,73,75,71,71
+VfL Bochum 1848,73,73,72,73
+Genk,73,72,74,72
+Las Palmas,73,73,74,73
+Lorient,73,74,72,73
+Antwerp,73,76,72,73
+Granada,73,75,73,72
+Sheffield United,72,72,72,72
+Watford,72,72,72,72
+Middlesbrough,72,72,70,72
+Schalke 04,72,73,72,72
+Troyes,72,72,73,70
+Sampdoria,72,72,71,72
+København,72,72,72,69
+Fluminense,72,74,73,71
+Los Angeles FC,72,76,70,71
+FC Twente,72,71,72,71
+İstanbul Başakşehir,72,73,72,71
+Gent,72,73,72,72
+Dynamo Kyiv,72,65,70,69
+Salzburg,72,74,73,72
+Dinamo Zagreb,72,72,72,71
+Union Saint-Gilloise,72,71,73,71
+Anderlecht,72,72,72,71
+Norwich City,71,72,71,71
+Botafogo,71,71,71,71
+Philadelphia Union,71,71,70,71
+Independiente del Valle,71,71,72,70
+Clermont,71,70,72,70
+Saint-Étienne,71,67,69,70
+Hamburger SV,71,71,72,69
+Talleres Córdoba,71,72,71,70
+Fortuna Düsseldorf,71,71,71,71
+Auxerre,71,72,71,71
+Lanús,71,71,70,70
+Cremonese,71,72,71,70
+Ferencváros,71,65,70,68
+Mamelodi Sundowns,71,67,70,69
+Al Ittihad,71,76,73,68
+Gil Vicente,71,73,70,70
+Tigre,71,73,71,70
+West Bromwich Albion,71,68,72,71
+FC Utrecht,71,73,70,71
+Young Boys,71,73,72,67
+Barcelona Guayaquil,71,73,71,69
+Adana Demirspor,71,72,71,70
+Libertad,71,71,65,71
+Darmstadt 98,71,67,70,72
+Argentinos Juniors,71,72,69,73
+Shakhtar Donetsk,71,74,70,71
+Fortaleza,71,71,71,71
+Deportivo Alavés,71,71,72,71
+SD Eibar,71,70,71,71
+Estudiantes,71,72,73,70
+Genoa,71,74,71,70
+Nacional,71,71,70,70
