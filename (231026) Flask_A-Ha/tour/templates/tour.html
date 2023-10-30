@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-Ha</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/tour.css">
+    <style>
+        @font-face {
+            font-family: 'ImcreSoojin';
+            src: url('../static/font/ImcreSoojin.ttf') format('truetype');
+        } 
+        body {
+            background-image: url('../static/img/page.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% ;
+            background-position: center top; 
+        }
+
+        .ret_tour {
+            background-color: transparent;
+            display: inline-block;
+            position: absolute;
+            font-family: 'ImcreSoojin', sans-serif;
+            font-size: 50px;
+            color: rgb(255, 255, 255);
+            top: 200px;
+            left: 200px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .ret_tour_add {
+            background-color: transparent;
+            display: inline-block;
+            position: absolute;
+            font-family: 'ImcreSoojin', sans-serif;
+            font-size: 30px;
+            color: rgb(255, 255, 255);
+            bottom: 130px;
+            left: 200px;
+            font-weight: bold;
+        }
+        .top_10 {
+            background-color: transparent;
+            display: inline-block;
+            position: absolute;
+            font-family: 'ImcreSoojin', sans-serif;
+            font-size: 50px;
+            color: rgb(255, 255, 255);
+            top: 300px;
+            left: 1050px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .top_10_ret_1 {
+            background-color: transparent;
+            display: inline-block;
+            position: absolute;
+            font-family: 'ImcreSoojin', sans-serif;
+            font-size: 40px;
+            color: rgb(255, 255, 255);
+            top: 400px;
+            left: 1040px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .top_10_ret_2 {
+            background-color: transparent;
+            display: inline-block;
+            position: absolute;
+            font-family: 'ImcreSoojin', sans-serif;
+            font-size: 40px;
+            color: rgb(255, 255, 255);
+            top: 400px;
+            left: 1250px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .create_img {
+            background-color: transparent;
+            display: inline-block;
+            position: absolute;
+            font-family: 'ImcreSoojin', sans-serif;
+            font-size: 30px;
+            color: rgb(255, 224, 0);
+            bottom: 100px;
+            left: 1060px;
+            font-weight: bold;
+            width:250px;
+            text-align: center;
+        }
+        #create_img_btn {
+            position: absolute;
+            width: 180px;
+            height: 100px;
+            bottom: 10%;
+            left: 50%;
+            /* transform: translate(-50%, -50%); */
+            background-image: url('../static/img/create_img.png');
+            background-color: transparent;
+            cursor: pointer;
+            border: none; 
+        }
+        #create_img_btn:hover {
+        background-image: url('../static/img/create_img2.png');
+        }
+
+        .to_create_img {
+            position: absolute;
+            width: 10%;
+            height: 10%;
+            top: 770px;
+            right: 170px;
+            background-size: contain;
+            background-repeat: no-repeat;   
+            background-image: url('../static/img/create_img.png');
+            background-color: transparent;
+            cursor: pointer;
+            border: none; 
+        }
+ 
+        /* 호버 효과 스타일 */
+        .to_create_img:hover {
+        background-image: url('../static/img/create_img2.png');
+        }
+
+        #map {
+            position: fixed;
+            top: 300px; 
+            left: 200px; 
+            width: 600px; 
+            height: 400px; 
+            border: 10px solid #fffffff7; 
+        }
+
+        #naver {
+            width: 200px;
+            height: 70px;
+            position: absolute;
+            top: 500px;
+            left: 1420px;
+            /* opacity: 0.5; */
+            background-image: url('../static/img/naver1.png');
+            background-color: transparent;
+            background-size: contain;
+            background-repeat: no-repeat; 
+            cursor: pointer;
+            border: none; 
+        }
+        #naver:hover {
+            background-image: url('../static/img/naver2.png');
+            }
+
+    </style>
+</head>
+<body>
+    
+    <div><a href="{{url_for('new_page1')}}" id="to_main" ></a></div>
+    <div><a href="https://knto.or.kr/index" target="_blank" id="to_link_1"></a></div>
+    <div><a href="https://korean.visitkorea.or.kr/other/otherService.do?otdid=622bcd99-84fa-11e8-8165-020027310001" target="_blank" id="to_link_2"></a></div>
+    <div><a href="https://www.letskorail.com/" target="_blank" id="to_link_3"></a></div>
+    <div><a href="https://www.kobus.co.kr/mrs/rotinf.do" target="_blank" id="to_link_4"></a></div>
+    <div><a href="https://www.bustago.or.kr/newweb/kr/index.do" target="_blank" id="to_link_5"></a></div>
+   
+    <div class="ret_tour">[ {{tour}} ]</div>
+    <div class="ret_tour_add">주소 : {{tour_add}}</div>
+    
+    <div id="map">
+        <iframe src="./static/map.html" width="100%" height="100%" frameborder="0"></iframe>
+    </div>
+
+    <div class="top_10">  TOP 10 키워드  </div>
+    <hr class='line' style="border: solid 3px rgb(255, 255, 255); width: 20%; margin: 360px 100px 100px 1025px">
+
+    <div class="top_10_ret_1">
+        <div style="margin-bottom: 20px;">{{ret_1}}</div>
+        <div style="margin-bottom: 20px;">{{ret_2}}</div>
+        <div style="margin-bottom: 20px;">{{ret_3}}</div>
+        <div style="margin-bottom: 20px;">{{ret_4}}</div>
+        <div style="margin-bottom: 20px;">{{ret_5}}</div>
+    </div>
+
+    <div class="top_10_ret_2">
+        <div style="margin-bottom: 20px;">{{ret_6}}</div>
+        <div style="margin-bottom: 20px;">{{ret_7}}</div>
+        <div style="margin-bottom: 20px;">{{ret_8}}</div>
+        <div style="margin-bottom: 20px;">{{ret_9}}</div>
+        <div style="margin-bottom: 20px;">{{ret_10}}</div>
+    </div>
+
+    <div class="create_img">TOP 10 키워드로 AI 이미지 생성하기</div>
+
+    <form action="/to_create_img" method="post">            
+        <button type="submit" class='to_create_img' href="{{url_for('to_create_img')}}"></button>
+    </form>
+
+    <div><a href="https://search.naver.com/search.naver?where=view&sm=tab_jum&query={{tour}} {{ret_1}} {{ret_2}} {{ret_3}} {{ret_4}} {{ret_5}} {{ret_6}} {{ret_7}} {{ret_8}} {{ret_9}} {{ret_10}}" target="_blank" id="naver"></a></div>
+    
+</body>
+</html>

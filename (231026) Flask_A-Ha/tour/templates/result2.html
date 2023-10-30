@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>A-Ha</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/tour.css">
+    <style>
+        @font-face {
+            font-family: 'ImcreSoojin';
+            src: url('../static/font/ImcreSoojin.ttf') format('truetype');
+        }        
+        body {
+            background-image: url('../static/img/page2.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% ;
+            background-position: center top; 
+        }
+        
+        .search {
+            width: 1000px;
+            height: 60px;
+            position: absolute;
+            top: 300px;
+            left: 850px;
+            transform: translate(-50%, -50%);
+            background-color: transparent;
+            font-family: 'ImcreSoojin', sans-serif;
+        }
+
+        .center-div {
+            background-color: transparent;
+            display: inline-block;
+            position: absolute;
+            font-family: 'ImcreSoojin', sans-serif;
+            font-size: 130px;
+            color: rgb(255, 255, 255);
+            top: 440px;
+            left: 330px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .center-div2 {
+            background-color: transparent;
+            display: inline-block;
+            position: absolute;
+            font-family: 'ImcreSoojin', sans-serif;
+            font-size: 130px;
+            color: rgb(255, 255, 255);
+            top: 440px;
+            left: 600px;
+            font-weight: bold;
+            text-align: center;
+        }
+       
+        .to_tour1 {
+            position: absolute;
+            width: 5%;
+            height: 5%;
+            top: 440px;
+            left: 250px;
+            background-size: contain;
+            background-repeat: no-repeat;   
+            background-image: url('../static/img/seek.png');
+            background-color: transparent;
+            cursor: pointer;
+            border: none; 
+        }
+ 
+        /* 호버 효과 스타일 */
+        .to_tour1:hover {
+        background-image: url('../static/img/seek2.png');
+        }
+
+        .to_tour2 {
+            position: absolute;
+            width: 5%;
+            height: 5%;
+            top: 515px;
+            left: 250px;
+            background-size: contain;
+            background-repeat: no-repeat;   
+            background-image: url('../static/img/seek.png');
+            background-color: transparent;
+            cursor: pointer;
+            border: none; 
+        }
+ 
+        /* 호버 효과 스타일 */
+        .to_tour2:hover {
+        background-image: url('../static/img/seek2.png');
+        }
+
+        .to_tour3 {
+            position: absolute;
+            width: 5%;
+            height: 5%;
+            top: 590px;
+            left: 250px;
+            background-size: contain;
+            background-repeat: no-repeat;   
+            background-image: url('../static/img/seek.png');
+            background-color: transparent;
+            cursor: pointer;
+            border: none; 
+        }
+ 
+        /* 호버 효과 스타일 */
+        .to_tour3:hover {
+        background-image: url('../static/img/seek2.png');
+        }
+
+        .to_tour4 {
+            position: absolute;
+            width: 5%;
+            height: 5%;
+            top: 665px;
+            left: 250px;
+            background-size: contain;
+            background-repeat: no-repeat;   
+            background-image: url('../static/img/seek.png');
+            background-color: transparent;
+            cursor: pointer;
+            border: none; 
+        }
+ 
+        /* 호버 효과 스타일 */
+        .to_tour4:hover {
+        background-image: url('../static/img/seek2.png');
+        }
+
+        .to_tour5 {
+            position: absolute;
+            width: 5%;
+            height: 5%;
+            top: 740px;
+            left: 250px;
+            background-size: contain;
+            background-repeat: no-repeat;   
+            background-image: url('../static/img/seek.png');
+            background-color: transparent;
+            cursor: pointer;
+            border: none; 
+        }
+ 
+        /* 호버 효과 스타일 */
+        .to_tour5:hover {
+        background-image: url('../static/img/seek2.png');
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <div><a href="{{url_for('new_page1')}}" id="to_main" ></a></div>
+    <div><a href="https://knto.or.kr/index" target="_blank" id="to_link_1"></a></div>
+    <div><a href="https://korean.visitkorea.or.kr/other/otherService.do?otdid=622bcd99-84fa-11e8-8165-020027310001" target="_blank" id="to_link_2"></a></div>
+    <div><a href="https://www.letskorail.com/" target="_blank" id="to_link_3"></a></div>
+    <div><a href="https://www.kobus.co.kr/mrs/rotinf.do" target="_blank" id="to_link_4"></a></div>
+    <div><a href="https://www.bustago.or.kr/newweb/kr/index.do" target="_blank" id="to_link_5"></a></div>
+
+
+    <div class="search" style="font-size: 30px;" >{{input_data}}</div>
+
+    <div class="center-div">
+        <div style="font-size: 25%; margin-bottom: 40px;">{{tour1}}</div>
+        <div style="font-size: 25%; margin-bottom: 40px;">{{tour2}}</div>
+        <div style="font-size: 25%; margin-bottom: 40px;">{{tour3}}</div>
+        <div style="font-size: 25%; margin-bottom: 40px;">{{tour4}}</div>
+        <div style="font-size: 25%; margin-bottom: 40px;">{{tour5}}</div>
+    </div>
+
+    <div class="center-div2">
+        <div style="font-size: 25%; margin-bottom: 40px;">{{tour_add1}}</div>
+        <div style="font-size: 25%; margin-bottom: 40px;">{{tour_add2}}</div>
+        <div style="font-size: 25%; margin-bottom: 40px;">{{tour_add3}}</div>
+        <div style="font-size: 25%; margin-bottom: 40px;">{{tour_add4}}</div>
+        <div style="font-size: 25%; margin-bottom: 40px;">{{tour_add5}}</div>
+    </div>
+
+
+    <form action="/info1" method="post">            
+        <button type="submit" class='to_tour1' href="{{url_for('info1')}}"></button>
+    </form>
+
+    <form action="/info2" method="post">            
+        <button type="submit" class='to_tour2' href="{{url_for('info1')}}"></button>
+    </form>
+
+    <form action="/info3" method="post">            
+        <button type="submit" class='to_tour3' href="{{url_for('info1')}}"></button>
+    </form>
+
+    <form action="/info4" method="post">            
+        <button type="submit" class='to_tour4' href="{{url_for('info1')}}"></button>
+    </form>
+
+    <form action="/info5" method="post">            
+        <button type="submit" class='to_tour5' href="{{url_for('info1')}}"></button>
+    </form>
+
+</body>
+</html>

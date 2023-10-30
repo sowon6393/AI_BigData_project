@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Jeju-Tour</title>
+    <style>
+        @font-face {
+            font-family: 'ImcreSoojin';
+            src: url('../static/font/ImcreSoojin.ttf') format('truetype');
+        }       
+        body {
+            background-color: black;
+            background-image: url('../static/img/result_back.jpg');
+            /* background-size: cover; */
+            background-repeat: no-repeat;
+            background-size: 102% ;
+            background-position: center top;
+            font-family: 'YourFontName', sans-serif;
+        }
+        #to_main {
+            width: 260px;
+            height: 50px;
+            position: absolute;
+            top: 40px;
+            left: 30px;
+            opacity: 0;
+        }
+        .start {
+            width: 200px;
+            height: 50px;
+            /* background-color: rgba(28, 28, 28, 0.9); */
+            position: absolute;
+            bottom: 43%;
+            left: 36%;
+            transform: translate(-50%, -50%);
+            border-radius: 10%;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center; 
+        }
+        .course1 {
+            width: 200px;
+            height: 50px;
+            /* background-color: rgba(28, 28, 28, 0.9); */
+            position: absolute;
+            bottom: 36.5%;
+            left: 36%;
+            transform: translate(-50%, -50%);
+            border-radius: 10%;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center; 
+        }
+        .course2 {
+            width: 200px;
+            height: 50px;
+            /* background-color: rgba(28, 28, 28, 0.9); */
+            position: absolute;
+            bottom: 29.8%;
+            left: 36%;
+            transform: translate(-50%, -50%);
+            border-radius: 10%;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center; 
+        }
+        .course3 {
+            width: 200px;
+            height: 50px;
+            /* background-color: rgba(28, 28, 28, 0.9); */
+            position: absolute;
+            bottom: 23%;
+            left: 36%;
+            transform: translate(-50%, -50%);
+            border-radius: 10%;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center; 
+        }
+        .end {
+            width: 200px;
+            height: 50px;
+            /* background-color: rgba(28, 28, 28, 0.9); */
+            position: absolute;
+            bottom: 16.5%;
+            left: 36%;
+            transform: translate(-50%, -50%);
+            border-radius: 10%;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center; 
+        }
+        .center-textarea {
+            height: 45%;
+            width: 85%;
+            padding: 10px;
+            font-size: 16px;
+            position: absolute;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            margin-top: 20px;
+            font-family: 'ImcreSoojin',sans-serif;
+            resize: none;
+        }
+        .file-btn1 {
+            display:inline-block;
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            top: 740px;
+            left: 830px;
+            background-color: rgba(34, 34, 34, 0);
+            border-radius: 10px;
+            color: rgb(83, 199, 184);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            background-color: transparent; /* 버튼의 배경색을 투명으로 설정 */
+            border: none; /* 버튼의 테두리를 없앰 */
+        }
+        .center-span {
+            display: inline-block;
+            position: absolute;
+            font-family: 'ImcreSoojin', sans-serif;
+            font-size: 160px;
+            color: rgb(39, 10, 255);
+            top: 550px;
+            left: 700px;
+        }
+        .center-span2 {
+            display: inline-block;
+            position: absolute;
+            font-family: 'ImcreSoojin', sans-serif;
+            font-size: 160px;
+            color: rgb(255, 255, 255);
+            top: 550px;
+            left: 700px;
+            font-weight: bold;
+        }
+        #button_result {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            bottom: 120px;
+            margin-left: 50%;
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <div><a href="main.html"><img id="to_main" src="../static/img/purple.jpg"></a></div>
+
+    <form action="/process" method="post">
+
+        <div class="start">
+            <input type="textbox" name="start" id="text_path" class="center-textarea" placeholder="출발지를 입력하세요."></input>
+            </div> 
+        <div class="course1">
+            <input type="textbox" name="course1" id="text_path" class="center-textarea" placeholder="코스1을 입력하세요."></input>
+            </div> 
+        <div class="course2">
+            <input type="textbox" name="course2" id="text_path" class="center-textarea" placeholder="코스2를 입력하세요."></input>
+            </div> 
+        <div class="course3">
+            <input type="textbox" name="course3" id="text_path" class="center-textarea" placeholder="코스3을 입력하세요."></input>
+            </div> 
+        <div class="end">
+            <input type="textbox" name="end" id="text_path" class="center-textarea" placeholder="도착지를 입력하세요."></input>
+            </div> 
+            <button type="submit" class='file-btn1' onclick="go_to(0)"></button>
+    </form>
+</body>
+</html>
+

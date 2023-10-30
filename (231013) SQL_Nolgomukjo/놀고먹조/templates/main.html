@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Jeju-Tour</title>
+    <style>
+        @font-face {
+            font-family: 'ImcreSoojin';
+            src: url('../static/font/ImcreSoojin.ttf') format('truetype');
+        }        
+        body {
+            background-color: black;
+            background-image: url('../static/img/back.gif');
+            background-repeat: no-repeat;
+            background-size: 50% ;
+            background-position: center top;
+            font-family: 'YourFontName', sans-serif;
+        }
+        .audio-controls {
+            text-align: center;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+        .audio-controls button {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        /* .center-div {
+            width: 500px;
+            height: 200px;
+            background-color: rgba(28, 28, 28, 0.9);
+            position: absolute;
+            top: 88%;
+            left: 78%;
+            transform: translate(-50%, -50%);
+            border-radius: 10%;
+            display: flex; 
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center; 
+        }
+        .center-textarea {
+            height: 45%;
+            width: 85%;
+            padding: 10px;
+            font-size: 16px;
+            position: absolute;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            margin-top: 20px;
+            font-family: 'ImcreSoojin',sans-serif;
+            resize: none;
+        }
+        .file-btn1 {
+            width: 200px;
+            height: 70px;
+            margin-top: 270px;
+            margin-left: 1310px;
+            background-color: rgba(34, 34, 34, 0);
+            border-radius: 10px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        } */
+        #button_hi {
+            width: 100px;
+            height: 50px;
+            position: absolute;
+            bottom: 260px;
+            margin-left: 48%;
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <audio id="techie-audio" preload="auto">
+        <source src="../static/music/bg_music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="audio-controls">
+        <button onclick="playAudio()"><img src="../static/img/play.png" alt="재생" width="300px"></button>
+    </div>
+
+    <!-- <div class="center-div">
+        <textarea id="text_lyric" class="center-textarea" placeholder="가사를 입력하세요."></textarea>
+    </div>
+    <div class="file-input">
+        <input type="file" name="file" style="display:none">
+        <button class="file-btn1" onclick="go_to(0)"></button>/button>
+    </div> -->
+
+    <script>
+        var audio = document.getElementById("techie-audio");
+        function playAudio() {
+            audio.play();
+        }
+    </script>
+
+    <div><a href="result1.html"><img id="button_hi" src="../static/img/purple.jpg"></a></div>
+</body>
+</html>
+
+
+

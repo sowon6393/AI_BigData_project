@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>A-Ha</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/tour.css">
+    <link rel="stylesheet" type="text/css" href="./static/css/tour.css">
+    <style>
+        
+
+        @font-face {
+            font-family: 'ImcreSoojin';
+            src: url('../static/font/ImcreSoojin.ttf') format('truetype');
+        }       
+        body {
+            background-image: url('../static/img/page.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% ;
+            background-position: center top; 
+        }
+
+        #wait_gif {
+            width: 700px;
+            height: 700px;
+            position: absolute;
+            top: 55%;
+            left: 30%;
+            transform: translate(-50%, -50%);
+        }
+
+        #ai_img {
+            width: 700px;
+            height: 700px;
+            position: absolute;
+            top: 55%;
+            left: 30%;
+            transform: translate(-50%, -50%);
+        }
+
+        .ret_tour {
+            background-color: transparent;
+            display: inline-block;
+            position: absolute;
+            font-family: 'ImcreSoojin', sans-serif;
+            font-size: 50px;
+            color: rgb(255, 255, 255);
+            top: 230px;
+            left: 1200px;
+            font-weight: bold;
+            text-align: center;
+            transform: translate(-50%, -50%);
+        }
+
+        .top_10 {
+            background-color: transparent;
+            display: inline-block;
+            position: absolute;
+            font-family: 'ImcreSoojin', sans-serif;
+            font-size: 50px;
+            color: rgb(255, 255, 255);
+            top: 300px;
+            left: 1050px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .top_10_ret_1 {
+            background-color: transparent;
+            display: inline-block;
+            position: absolute;
+            font-family: 'ImcreSoojin', sans-serif;
+            font-size: 40px;
+            color: rgb(255, 255, 255);
+            top: 400px;
+            left: 1040px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .top_10_ret_2 {
+            background-color: transparent;
+            display: inline-block;
+            position: absolute;
+            font-family: 'ImcreSoojin', sans-serif;
+            font-size: 40px;
+            color: rgb(255, 255, 255);
+            top: 400px;
+            left: 1250px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .create_img {
+            background-color: transparent;
+            display: inline-block;
+            position: absolute;
+            font-family: 'ImcreSoojin', sans-serif;
+            font-size: 30px;
+            color: rgb(255, 255, 255);
+            bottom: 100px;
+            left: 1060px;
+            font-weight: bold;
+            width:250px;
+            text-align: center;
+        }
+        #create_img_btn {
+            position: absolute;
+            width: 180px;
+            height: 100px;
+            bottom: 10%;
+            left: 50%;
+            /* transform: translate(-50%, -50%); */
+            background-image: url('../static/img/create_img.png');
+            background-color: transparent;
+            cursor: pointer;
+            border: none; 
+        }
+        #create_img_btn:hover {
+        background-image: url('../static/img/create_img2.png');
+        width: 500px;
+        height: 500px;
+        }
+
+        .to_create_img {
+            position: absolute;
+            width: 10%;
+            height: 10%;
+            top: 770px;
+            right: 170px;
+            background-size: contain;
+            background-repeat: no-repeat;   
+            background-image: url('../static/img/create_img.png');
+            background-color: transparent;
+            cursor: pointer;
+            border: none; 
+        }
+ 
+        /* 호버 효과 스타일 */
+        .to_create_img:hover {
+        background-image: url('../static/img/create_img2.png');
+        }
+
+        .ai_ {
+            background-color: transparent;
+            display: inline-block;
+            position: absolute;
+            font-family: 'ImcreSoojin', sans-serif;
+            font-size: 50px;
+            color: rgb(255, 224, 0);
+            bottom: 100px;
+            left: 1020px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <div><a href="{{url_for('new_page1')}}" id="to_main" ></a></div>
+    <div><a href="https://knto.or.kr/index" target="_blank" id="to_link_1"></a></div>
+    <div><a href="https://korean.visitkorea.or.kr/other/otherService.do?otdid=622bcd99-84fa-11e8-8165-020027310001" target="_blank" id="to_link_2"></a></div>
+    <div><a href="https://www.letskorail.com/" target="_blank" id="to_link_3"></a></div>
+    <div><a href="https://www.kobus.co.kr/mrs/rotinf.do" target="_blank" id="to_link_4"></a></div>
+    <div><a href="https://www.bustago.or.kr/newweb/kr/index.do" target="_blank" id="to_link_5"></a></div>
+
+    <div class="ret_tour">[ {{tour}} ]</div>
+
+    <div class="top_10">  TOP 10 키워드  </div>
+    <hr class='line' style="border: solid 3px rgb(255, 255, 255); width: 20%; margin: 360px 100px 100px 1025px">
+
+    <div class="top_10_ret_1">
+        <div style="margin-bottom: 20px;">{{ret_1}}</div>
+        <div style="margin-bottom: 20px;">{{ret_2}}</div>
+        <div style="margin-bottom: 20px;">{{ret_3}}</div>
+        <div style="margin-bottom: 20px;">{{ret_4}}</div>
+        <div style="margin-bottom: 20px;">{{ret_5}}</div>
+    </div>
+
+    <div class="top_10_ret_2">
+        <div style="margin-bottom: 20px;">{{ret_6}}</div>
+        <div style="margin-bottom: 20px;">{{ret_7}}</div>
+        <div style="margin-bottom: 20px;">{{ret_8}}</div>
+        <div style="margin-bottom: 20px;">{{ret_9}}</div>
+        <div style="margin-bottom: 20px;">{{ret_10}}</div>
+    </div>
+
+    <div class="ai_">  AI가 생성한 이미지  </div>
+ 
+    <img id="wait_gif" src="../static/img/loading.gif" >
+    <img id="ai_img" src="../static/ai_img/{{ai_img}}.png" style="display: none;">
+
+    <script>
+        setTimeout(function () {
+            document.getElementById("ai_img").style.display = "inline"; 
+        }, 3000); 
+    </script>
+    
+</body>
+</html>
+

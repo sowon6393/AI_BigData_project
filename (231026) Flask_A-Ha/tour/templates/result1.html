@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>A-Ha</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/tour.css">
+
+    <style>
+        @font-face {
+            font-family: 'ImcreSoojin';
+            src: url('../static/font/ImcreSoojin.ttf') format('truetype');
+        }       
+        body {
+            background-image: url('../static/img/page.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% ;
+            background-position: center top; 
+        }
+        
+        #search_gif {
+            width: 871px;
+            height: 77px;
+            position: absolute;
+            top: 363px;
+            left: 374px;
+            /* transform: translate(-50%, -50%); */
+        }
+        .search {
+            width: 1000px;
+            height: 150px;
+            position: absolute;
+            top: 55%;
+            left: 53%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .center-textarea {
+            height: 45%;
+            width: 85%;
+            font-size: 30px;
+            font-family: 'ImcreSoojin',sans-serif;
+            resize: none;
+        }
+
+        .file-btn1 {
+            position: absolute;
+            width: 180px;
+            height: 100px;
+            bottom: 10%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-image: url('../static/img/logo.png');
+            background-color: transparent;
+            cursor: pointer;
+            border: none; 
+        }
+ 
+        /* 호버 효과 스타일 */
+        .file-btn1:hover {
+        background-image: url('../static/img/logo2.png');
+        }
+    </style>
+</head>
+<body>
+
+    <div><button href="{{url_for('new_page1')}}" id="to_main" ></button></div>
+    <div><a href="https://knto.or.kr/index" target="_blank" id="to_link_1"></a></div>
+    <div><a href="https://korean.visitkorea.or.kr/other/otherService.do?otdid=622bcd99-84fa-11e8-8165-020027310001" target="_blank" id="to_link_2"></a></div>
+    <div><a href="https://www.letskorail.com/" target="_blank" id="to_link_3"></a></div>
+    <div><a href="https://www.kobus.co.kr/mrs/rotinf.do" target="_blank" id="to_link_4"></a></div>
+    <div><a href="https://www.bustago.or.kr/newweb/kr/index.do" target="_blank" id="to_link_5"></a></div>
+
+    
+    <img id="search_gif" src="../static/img/search_.gif" >  
+
+    <form action="/process" method="post">
+
+        <div class="search">
+            <input type="textbox" name="input_data" id="text_path" class="center-textarea" placeholder="  찾고싶은 관광지를 검색하세요">  </input>
+        </div> 
+            
+        <button type="submit" class='file-btn1'></button>
+    </form>
+    
+</body>
+</html>
+

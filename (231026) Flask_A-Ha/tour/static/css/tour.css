@@ -1,0 +1,108 @@
+#to_main {
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    top: 45px;
+    left: 60px;
+    /* opacity: 0.5; */
+    background-image: url('../../static/img/logo.png');
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat; 
+    cursor: pointer;
+    border: none; 
+}
+#to_main:hover {
+    background-image: url('../../static/img/logo2.png');
+    }
+
+#to_link_1 {
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    top: 70px;
+    left: 260px;
+    /* opacity: 0.5; */
+    background-image: url('../../static/img/menu1.png');
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat; 
+    cursor: pointer;
+    border: none; 
+}
+#to_link_1:hover {
+    background-image: url('../../static/img/menu1_.png');
+    }
+
+
+#to_link_2 {
+    width: 260px;
+    height: 70px;
+    position: absolute;
+    top: 65px;
+    left: 520px;
+    /* opacity: 0.5; */
+    background-image: url('../../static/img/menu2.png');
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat; 
+    cursor: pointer;
+    border: none; 
+}
+#to_link_2:hover {
+    background-image: url('../../static/img/menu2_.png');
+    }
+
+#to_link_3 {
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    top: 70px;
+    left: 855px;
+    /* opacity: 0.5; */
+    background-image: url('../../static/img/menu3.png');
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat; 
+    cursor: pointer;
+    border: none; 
+}
+#to_link_3:hover {
+    background-image: url('../../static/img/menu3_.png');
+    }
+
+#to_link_4 {
+    width: 190px;
+    height: 70px;
+    position: absolute;
+    top: 70px;
+    left: 1090px;
+    /* opacity: 0.5; */
+    background-image: url('../../static/img/menu4.png');
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat; 
+    cursor: pointer;
+    border: none; 
+}
+#to_link_4:hover {
+    background-image: url('../../static/img/menu4_.png');
+    }
+
+#to_link_5 {
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    top: 70px;
+    left: 1350px;
+    /* opacity: 0.5; */
+    background-image: url('../../static/img/menu5.png');
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat; 
+    cursor: pointer;
+    border: none; 
+}
+#to_link_5:hover {
+    background-image: url('../../static/img/menu5_.png');
+    }
