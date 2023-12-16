@@ -10,7 +10,10 @@ name=MBTI_question.info
 
 DEBUG=True
 
-dirpath='C:\\Users\\KDP-26-\\Desktop\\EXAM for PYTHON\\미니프로젝트_박소원\\result\\'
+# vscode에서는 상대경로 적용 안됨
+dirpath="C:\\Users\\KDP-26-\\Desktop\\big_data\\EXAM for PYTHON\\미니프로젝트_박소원\\(230707) python_mini_project_MBTI\\result\\"
+# dirpath="./result/"
+
 file=dirpath+f'result_mbti_{name}.txt'
 file_total=dirpath+f'result_mbti_total.txt'
 file_mbti=dirpath+f'result_mbti_{mbti}.txt'
