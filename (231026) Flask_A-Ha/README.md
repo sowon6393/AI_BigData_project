@@ -1,14 +1,14 @@
 # A-Ha
 
 - 한 줄 소개 
-  - 원하는 여행을 검색하면 관광지를 추천해주는 서비스
+  - **원하는 여행을 검색하면 관광지를 추천해주는 서비스**
   
 - 프로젝트 기간
   - 2023/10/23 → 2023/10/26
 - 준비 및 교육 기간
   - 2023/10/16 → 2023/10/20
 - 개발 환경 및 도구
-  - Flask, Folium, HTML/CSS, Numpy, PYTHON, Pandas, Selenium, Window
+  - Window, HTML/CSS, PYTHON, Pandas, Numpy, Folium, Selenium, Flask
 - 팀 구성
   - 박소원
 - 데이터 출처
