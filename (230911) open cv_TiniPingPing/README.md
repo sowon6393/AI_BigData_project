@@ -8,7 +8,7 @@
 - 준비 및 교육 기간
   - 2023/09/05 → 2023/09/08
 - 개발 환경 및 도구
-  - Flask, HTML/CSS, Numpy, OpenCV, PYTHON, Pandas, Window, matplotlib, skicit-learn
+  - Window, HTML/CSS, PYTHON, Pandas, Numpy, matplotlib, skicit-learn, OpenCV, Flask
 - 팀 구성
   - 김근태 김찬수 박선경 박소원
 - 데이터 출처
