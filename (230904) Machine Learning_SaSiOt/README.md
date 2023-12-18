@@ -2,12 +2,13 @@
 
 - 한 줄 소개
   - **FIFA Game 선수 추천 및 팀 능력치 예측 프로그램**
+    
 - 프로젝트 기간
   - 2023/09/01 → 2023/09/04
 - 준비 및 교육 기간
   - 2023/08/22 → 2023/09/01
 - 개발 환경 및 도구
-  - Numpy, PYTHON, Pandas, Window, matplotlib, seaborn, skicit-learn
+  - Window, PYTHON, Pandas, Numpy, matplotlib, seaborn, skicit-learn
 - 팀 구성
   - 박소원 이승수 이승훈 최성진
 - 데이터 출처
