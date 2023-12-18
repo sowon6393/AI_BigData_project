@@ -8,7 +8,7 @@
 - 준비 및 교육 기간
   - 2023/10/06 → 2023/10/12
 - 개발 환경 및 도구
-  - Flask, Folium, HTML/CSS, MariaDB, Numpy, PYTHON, Pandas, Selenium, Window
+  - Window, HTML/CSS, PYTHON, Pandas, Numpy, Folium, Selenium, Flask, MariaDB
 - 팀 구성
   - 박윤미 박소원 이수진 장진석 허유나 
 - 데이터 출처
