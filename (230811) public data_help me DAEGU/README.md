@@ -2,12 +2,13 @@
 
 - 한 줄 소개
   - **공공데이터 분석을 통한 대구의 미분양 현황 파악, 미분양 원인 분석 및 해결방안 제시**
+    
 - 프로젝트 기간
   - 2023/08/10 → 2023/08/11
 - 준비 및 교육 기간
   - 2023/08/07 → 2023/08/10
 - 개발 환경 및 도구
-  - Folium, Numpy, PYTHON, Pandas, Window, matplotlib, seaborn
+  - Window, PYTHON, Pandas, Numpy, matplotlib, seaborn, Folium
 - 팀 구성
   - 김찬수 박소원 박윤미 장진석
 - 데이터 출처
