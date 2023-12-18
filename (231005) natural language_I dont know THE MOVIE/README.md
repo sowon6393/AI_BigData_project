@@ -8,7 +8,7 @@
 - 준비 및 교육 기간
   - 2023/09/21 → 2023/10/04
 - 개발 환경 및 도구
-  - BeautifulSoup, Numpy, PYTHON, Pandas, Selenium, Window, WordCloud, kkma, okt
+  - Window, PYTHON, Pandas, Numpy, BeautifulSoup, Selenium, WordCloud, kkma, okt
 - 팀 구성
   - 박소원 배진호 오승준 윤성원
 - 데이터 출처
