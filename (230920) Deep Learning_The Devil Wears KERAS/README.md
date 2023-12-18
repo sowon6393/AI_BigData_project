@@ -8,7 +8,7 @@
 - 준비 및 교육 기간
   - 2023/09/12 → 2023/09/19
 - 개발 환경 및 도구
-  - Keras, Numpy, PYTHON, Pandas, Window, matplotlib
+  - Window, PYTHON, Pandas, Numpy, matplotlib, Keras
 - 팀 구성
   - 나서영 박소원 정세윤 이수진 이태형
 - 데이터 출처
