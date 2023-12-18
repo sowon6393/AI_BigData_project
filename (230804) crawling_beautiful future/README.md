@@ -2,12 +2,13 @@
 
 - 한 줄 소개
   - **크롤링을 통한 빅데이터, AI 관련 취업 공고 분석**
+    
 - 프로젝트 기간
   - 2023/08/03 → 2023/08/04
 - 준비 및 교육 기간
   - 2023/07/31 → 2023/08/03
 - 개발 환경 및 도구
-  - Folium, Numpy, PYTHON, Pandas, Window, matplotlib, seaborn
+  - Window, PYTHON, Pandas, Numpy, matplotlib, seaborn, Folium
 - 팀 구성
   - 강요셉 박소원 오승준 이태형
 - 데이터 출처
