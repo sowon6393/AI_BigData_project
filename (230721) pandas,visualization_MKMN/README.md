@@ -8,7 +8,7 @@
 - 준비 및 교육 기간
   - 2023/07/17 → 2023/07/20
 - 개발 환경 및 도구
-  - PYTHON, Pandas, Window, matplotlib, seaborn
+  - Window, PYTHON, Pandas, matplotlib, seaborn
 - 팀 구성
   - 김대환 배진호 박소원 허유나
 - 데이터 출처
