@@ -33,3 +33,5 @@
 
 👾     [github.com/sowon6393](https://github.com/sowon6393)
 
+🏷️     [Notion_link](https://ring-fog-8d2.notion.site/f4ca028d1f5945409b429ef63e5679f1?pvs=4)
+
