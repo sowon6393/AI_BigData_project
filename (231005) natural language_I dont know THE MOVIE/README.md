@@ -14,10 +14,7 @@
 - 데이터 출처
   - [네이버 시리즈 온] 크롤링, 공공데이터포탈 [영상물등급위원회_예고편 영화 등급분류 목록]
 
-## 🔗 **Source**
-
-https://github.com/sowon6393/AI_BigData_project/tree/main/(231005)%20natural%20language_I%20dont%20know%20THE%20MOVIE
-
+---
 
 
 ## 💖 세부 내용
@@ -38,7 +35,7 @@ https://github.com/sowon6393/AI_BigData_project/tree/main/(231005)%20natural%20l
 - 영화 정보 제공 : 감독, 배우, 줄거리, 감성분석 결과 등
 - 줄거리의 워드 클라우드 제공
 
-
+---
 ## 👩🏻‍💼 담당 파트
 
 - 네이버 시리즈 온 크롤링
@@ -46,6 +43,7 @@ https://github.com/sowon6393/AI_BigData_project/tree/main/(231005)%20natural%20l
 - 워드 클라우드 생성
 - 자연어 처리, 코사인 유사도 분석
 
+---
 ## ✨ 성장한 점
 
 - 자연어 감성사전을 이용한 감성분석에 대해 알게 되었다.
