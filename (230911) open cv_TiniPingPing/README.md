@@ -14,8 +14,7 @@
 - 데이터 출처
   - [ Google / Naver ] 이미지 수집, [ Youtube ] 영상 캡쳐
 
-## 🔗 **Source**
-https://github.com/sowon6393/AI_BigData_project/tree/main/(230911)%20open%20cv_TiniPingPing
+---
 
 ## 💖 세부 내용
 
@@ -35,8 +34,8 @@ https://github.com/sowon6393/AI_BigData_project/tree/main/(230911)%20open%20cv_T
                         회전, 반전 등으로 증폭
    - Random Forest Classifier 모델 사용
 
-</aside>
 
+---
 ## 👩🏻‍💼 담당 파트
 
 - 주제 선정 및 시장 조사, 관련 사진 촬영 및 수집
@@ -44,6 +43,7 @@ https://github.com/sowon6393/AI_BigData_project/tree/main/(230911)%20open%20cv_T
 - 모델링
 - 발표 자료 준비
 
+---
 ## ✨ 성장한 점
 
 - OpenCV를 이용한 이미지 처리 방법을 알게 되었다.
