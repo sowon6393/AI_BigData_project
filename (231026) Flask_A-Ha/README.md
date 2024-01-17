@@ -14,9 +14,7 @@
 - 데이터 출처
   - [ 한국관광공사 ] 한국 관광 100선, [ 네이버 블로그 ] 크롤링, [ Canva ] AI 생성 이미지
 
-## 🔗 **Source**
-
-https://github.com/sowon6393/AI_BigData_project/tree/main/(231026)%20Flask_A-Ha
+---
 
 
 ## 💖 세부 내용
@@ -37,14 +35,7 @@ https://github.com/sowon6393/AI_BigData_project/tree/main/(231026)%20Flask_A-Ha
    - TOP 10 키워드 제공 → 네이버 검색 링크
    - TOP 10 키워드로 AI가 생성 한 이미지 제공(Canva)
 
-
-## 👩🏻‍💼 담당 파트
-
-- 전체 서비스 구상 및 기획
-- 데이터 크롤링 및 전처리
-- 자연어 처리, 코사인 유사도 분석
-- 웹 사이트 디자인 구성 설계
-- 웹 사이트 flask 연동
+---
 
 ## ✨ 성장한 점
 
