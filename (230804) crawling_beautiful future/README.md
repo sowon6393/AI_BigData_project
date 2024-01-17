@@ -14,13 +14,9 @@
 - 데이터 출처
   - [ Work Net ] 크롤링
 
-## 🔗 **Source**
-https://github.com/sowon6393/AI_BigData_project/tree/91183049d6349f3ec686c90814872af59212d507/(230804)%20crawling_beautiful%20future
-
-
+---
 
 ## 💖 세부 내용
-
 
 👩🏻‍💻 Work Net의 빅데이터, AI 관련 취업 공고 분석
 
@@ -29,14 +25,14 @@ https://github.com/sowon6393/AI_BigData_project/tree/91183049d6349f3ec686c908148
 - 자격증 유무 / 사용 가능 언어 / 학력 / 지역 별 연봉 데이터 제공
 - 채용 공고 형태소 분석
 
-
+---
 ## 👩🏻‍💼 담당 파트
 
 - 주제 선정 및 자료 조사
 - 신입 채용 공고 크롤링
 - 신입 채용 공고 데이터 시각
 - 발표 자료 준비
-
+---
 ## ✨ 성장한 점
 
 - 크롤링을 할 수 있게 되었다.
