@@ -14,8 +14,7 @@
 - 데이터 출처
   - Kaggle [ FIFA 22 complete player dataset ], [ sofifa ] 크롤링
 
-## 🔗 **Source**
-https://github.com/sowon6393/AI_BigData_project/tree/91183049d6349f3ec686c90814872af59212d507/(230904)%20Machine%20Learning_SaSiOt
+---
 
 ## 💖 세부 내용
 
@@ -44,15 +43,17 @@ FIFA Online 게임에서 좋은 선수를 영입하는 것은 중요하지만 �
 - 선수 별 능력치 변화량 그래프 제공
 - 현실 구단 기준 내가 만든 팀의 순위 제공
 
-
+---
 ## 👩🏻‍💼 담당 파트
 
+- 주제 선정 및 기획
 - 데이터 전처리
 - Value 예측 모델링 _ Bagging Regressor
 - 발표 자료 준비
 
+---
 ## ✨ 성장한 점
 
-- 다양한 머신러닝에 대해 알게 되었다.
+- 다양한 머신러닝 종류에 대해 알게 되었다.
 - 랜덤 포레스트 모델은 꽤 좋다.
 - 모델링을 위해서는 데이터 전처리가 중요하다.
