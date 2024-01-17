@@ -12,10 +12,7 @@
 - 팀 구성
   - 박소원
 
-## 🔗 **Source**
-https://github.com/sowon6393/AI_BigData_project/tree/c2c34bcf9b5ecc34b30bd1bf52370aaac9574cf7/(230707)%20python_MBTI
-
-
+---
 ## 💖 세부 내용
 
 <aside>
@@ -33,7 +30,7 @@ https://github.com/sowon6393/AI_BigData_project/tree/c2c34bcf9b5ecc34b30bd1bf523
 - E/I, S/N, T/F, J/P 각 항목 별 비율 제공
 - 최고 / 최악의 궁합 MBTI 제공
 - 통계 제공 : MBTI 순위, E/I, S/N, T/F, J/P 각 항목 별 전체 비율
-
+---
 ## ✨ 성장한 점
 
 - PYTHON에 조금 익숙해졌다.
