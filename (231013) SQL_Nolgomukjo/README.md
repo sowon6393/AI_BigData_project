@@ -14,9 +14,7 @@
 - 데이터 출처
   - [ 한국관광공사 ] tour API, [ 메뉴판닷컴 ] 크롤링, [ 네이버 길찾기 ] 크롤링
 
-## 🔗 **Source**
-
-https://github.com/sowon6393/AI_BigData_project/tree/main/(231013)%20SQL_Nolgomukjo
+---
 
 ## 💖 세부 내용
 
@@ -39,7 +37,7 @@ https://github.com/sowon6393/AI_BigData_project/tree/main/(231013)%20SQL_Nolgomu
 - 추천 경로의 map 제공
 - 추천 경로의 이동 시간, 거리, 택시비, 주유비 제공
 
-
+---
 
 ## 👩🏻‍💼 담당 파트
 
@@ -48,6 +46,7 @@ https://github.com/sowon6393/AI_BigData_project/tree/main/(231013)%20SQL_Nolgomu
 - 최적의 경로 추천 알고리즘 함수 생성
 - 발표 자료 준비
 
+---
 ## ✨ 성장한 점
 
 - 크롤링에 익숙해졌다.

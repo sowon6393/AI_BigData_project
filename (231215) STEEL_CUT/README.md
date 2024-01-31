@@ -1,5 +1,5 @@
-# STEEL CUT
 
+# STEEL CUT
 - 한 줄 소개
   - **(주) 엠티데이타 _  AI를 활용한 국내 철 스크랩 단가 예측 시스템**
 
@@ -11,11 +11,7 @@
 - 팀 구성
   - 이수진 김대환 박소원 이재필 정세윤
 
-## 🔗 **Source**
-
-[https://github.com/sowon6393/AI_BigData_project](https://github.com/sowon6393/AI_BigData_project)
-
-
+---
 ## 💖 세부 내용
 ### AI를 활용한 국내 철 스크랩 단가 예측 서비스
 
@@ -30,7 +26,7 @@
    - Dlinear 모델을 이용한 철 스크랩 가격 예측 ( 7일 / 14일 / 28일 )
    - 웹 페이지 구축
 
-
+---
 ## 👩🏻‍💼 담당 파트
 
 - 철 스크랩 관련 도메인 분석
